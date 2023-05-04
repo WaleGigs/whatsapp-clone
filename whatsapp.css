@@ -1,0 +1,346 @@
+main{
+    width: 270px;
+    height: 460px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(63, 62, 62, 0.623);
+    margin: auto;
+}
+.div1{
+    padding: 150px;
+}
+nav{
+    background-color: rgb(23, 136, 23);
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+.div1a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    color: white;
+}
+.sea{
+    padding-left: 95px;
+}
+.div1b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(240, 255, 255, 0.726);
+    margin-top: -20px;
+}
+.cam{
+    padding-left: 10px;
+
+}
+.pen{
+    padding-right: 10px;
+}
+button{
+    background: none;
+    border: none;
+    color: rgba(240, 255, 255, 0.726);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.vert{
+    position: relative;
+}
+.vertb{
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    right: -8.5px;
+    width: 130px;
+    display: none;
+    top: -20px;
+    box-shadow: 2px 2px 5px rgba(63, 62, 62, 0.623);
+}
+.vertb div{
+    padding: 7px 5px;
+
+}
+.dr1a{
+    overflow-y: scroll;
+    height: 330px;
+    width: 270px;
+    margin-left: -50px;
+    position: absolute;
+    /* display: none; */
+
+}
+.dr1:focus-within .dr1a{
+    display: block;
+}
+.dr1:focus-within button{
+    color: white;
+    text-decoration: underline 5px white;
+}
+.vert:focus-within .vertb{
+    display: block;
+}
+.maane{
+    display: flex;
+    color: black;
+    justify-content:start;
+    align-items: center;
+    padding: 0px 2px;
+    line-height: 4px;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.301); */
+    
+
+}
+.maane img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px 0px; 
+    font-size: 16px;
+}
+.dr2a::-webkit-scrollbar{
+    display: none;
+}
+.maane button p{
+    /* width: 70px; */
+    color: black;
+    background: none;
+    font-size: 11px;
+    margin-top: -10px;
+    margin-left: -12px;
+}    
+.maane button h4{
+    /* width: 70px; */
+    color: black;
+    background: none;
+    font-size: 15px;
+    margin-left: -15px;
+    margin-top: 5px;
+}    
+.dr3a::-webkit-scrollbar{
+    display: none;
+
+}
+.dr1a::-webkit-scrollbar{
+    display: none;
+}
+.dr2a{
+    overflow-y: scroll;
+    height: 330px;
+    width: 267px;
+    margin-left: -120px;
+    display: none;
+    background-color: white;
+    position: absolute;
+
+
+}
+.dr2:focus-within .dr2a{
+    display: block;
+    color: white;
+}
+.maane2{
+    display: flex;
+    color: black;
+    justify-content:start;
+    align-items: center;
+    padding: 7px 0px;
+    
+
+}
+.maane p{
+    font-size: 5px;
+}
+.maane2 img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px; 
+    font-size: 16px;
+}
+
+.dr2:focus-within button{
+    color: white;
+    text-decoration: underline 4px white;
+}
+
+.dr3a{
+    overflow-y: scroll;
+    height: 333px;
+    width: 273px;
+    margin-left: -210px;
+    display: none;
+    background-color: white;
+    position: absolute;
+
+
+}
+.dr3:focus-within .dr3a{
+    display: block;
+    color: white;
+}
+.maane3{
+    display: flex;
+    color: black;
+    justify-content:start;
+    align-items: center;
+    padding: 7px 0px;
+    
+
+}
+.maane3 img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px; 
+    font-size: 16px;
+}
+
+.dr3:focus-within button{
+    color: white;
+    text-decoration: underline 4px white;
+}
+.li{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.biggest:focus-within .bigdiv{
+    display: block;
+}
+.dr3a:focus-within .bigdivb{
+    display: block;
+}
+.bigdiv{
+    position: fixed;
+    top: 270px;
+    /* left: 0; */
+    background-color: rgba(133, 131, 131, 0.13);
+    width: 294px;
+    height: 2110px;
+    display: none;
+    
+
+}
+.bigdivb{
+    position: fixed;
+    top: 270px;
+    /* left: 4.5px; */
+    background-color: rgba(133, 131, 131, 0.13);
+    width: 294px;
+    height: 2110px;
+    display: none;
+    
+
+}
+.imgclick{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+  
+    width: 210px;
+    border-radius: 10px;
+
+}
+.backclick{
+    background-image: url(./icofont/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+.backclickb{
+    background-image: url(./icofont/IMG-20220727-WA0039.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+.backclick div{
+    background-color: rgba(0, 0, 0, 0.534);
+    
+}
+.pes{
+    color: white;
+    padding: 3px 10px ;
+}
+.text{
+    background-color: rgba(128, 128, 128, 0.466);
+    color: rgb(23, 136, 23);
+    font-size: 15px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+.ph{
+    font-size: 25px;
+    padding: 0px 7px;
+}
+.alm1a{
+    position: fixed;
+    left: 665px;
+    width: 260px;
+    top: 228px;
+    display: none;
+    padding: 52px 10px;
+}
+.alm1:focus-within .alm1a{
+    display: inline-block;
+}
+.navv{
+    height: 50px;
+    left: 50px;
+    display: flex;
+    color: white;
+    padding: 0px 17px;
+    align-items: center;
+    border-radius: 0px;
+    justify-content: center;
+}
+.ico{
+    color: white;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+.white{
+    height: 280px;
+    background-image: url(./icofont/OIP\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.mar{
+    margin-left: -50px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+    /* background: none; */
+}
+.input{
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    width: 220px;
+    margin: auto;
+    align-items: center;
+    top: 280px;
+    left: 30px;
+    position: absolute;
+}
+.alm1 button p{
+    /* width: 70px; */
+    color: black;
+    background: none;
+    font-size: 11px;
+    margin-top: -10px;
+    margin-left: -12px;
+}    
+.alm1 button h4{
+    /* width: 70px; */
+    color: black;
+    background: none;
+    font-size: 15px;
+    margin-left: -15px;
+    margin-top: 5px;
+}    
